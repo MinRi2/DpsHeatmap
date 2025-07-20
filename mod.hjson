@@ -2,22 +2,24 @@
 displayName: "Java Mod Template"
 
 #the internal name of your mod
-name: "example-java-mod"
+name: "dpsmap-java-mod"
 
 #your name
-author: "You"
+author: "minRi2"
 
 #the fully qualified main class of the mod
-main: "example.ExampleJavaMod"
+main: "dpsmap.Main"
 
 #the mod description as seen in the mod dialog
-description: "A Mindustry Java mod template."
+description: "Dps Heatmap"
 
 #the mod version
 version: 1.0
 
 #the minimum game build required to run this mod
-minGameVersion: 145
+minGameVersion: 149
 
 #this is a java mod
 java: true
+
+hidden: true
