@@ -23,3 +23,5 @@ minGameVersion: 149
 java: true
 
 hidden: true
+
+repo: MinRi2/DpsHeatmap
