@@ -1,25 +1,14 @@
 package dpsmap;
 
 import arc.*;
-import arc.graphics.*;
-import arc.graphics.g2d.*;
-import arc.graphics.gl.*;
-import arc.input.*;
-import arc.math.*;
-import arc.math.geom.*;
 import arc.scene.ui.layout.*;
 import arc.util.*;
 import mindustry.*;
-import mindustry.game.*;
 import mindustry.game.EventType.*;
-import mindustry.game.Teams.*;
-import mindustry.gen.*;
 import mindustry.mod.*;
 import mindustry.type.*;
 import mindustry.ui.*;
 import mindustry.ui.dialogs.*;
-import mindustry.world.blocks.defense.turrets.*;
-import mindustry.world.blocks.defense.turrets.BaseTurret.*;
 
 public class Main extends Mod{
 
@@ -30,7 +19,7 @@ public class Main extends Mod{
             DpsKeyBinds.init();
             DpsShaders.init();
 
-            showDpsDialog();
+//            showDpsDialog();
         });
 
         Events.run(Trigger.update, () -> {
